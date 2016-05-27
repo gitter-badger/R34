@@ -7,79 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98e85132-198e-4a61-a0cd-0e48cedd9989" name="Default" comment="Little changes 2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/R34_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/63.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/66.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/67.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/68.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/69.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/71.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/9.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/R34/com/coloredpanda/Main.class" afterPath="$PROJECT_DIR$/out/production/R34/com/coloredpanda/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/R34.iml" afterPath="$PROJECT_DIR$/R34.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/coloredpanda/Main.java" afterPath="$PROJECT_DIR$/src/com/coloredpanda/Main.java" />
     </list>
     <ignored path="R34.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -780,7 +708,7 @@
       <workItem from="1464158713774" duration="18587000" />
       <workItem from="1464178691195" duration="956000" />
       <workItem from="1464337499827" duration="396000" />
-      <workItem from="1464338519513" duration="4665000" />
+      <workItem from="1464338519513" duration="4730000" />
     </task>
     <task id="LOCAL-00001" summary="Little changes">
       <created>1464339300618</created>
@@ -789,14 +717,21 @@
       <option name="project" value="LOCAL" />
       <updated>1464339300618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Little changes 2">
+      <created>1464343321463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1464343321463</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116320000" />
+    <option name="totallyTimeSpent" value="116385000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
