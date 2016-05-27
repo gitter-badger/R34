@@ -1,11 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="R34:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="98e85132-198e-4a61-a0cd-0e48cedd9989" name="Default" comment="Little changes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="98e85132-198e-4a61-a0cd-0e48cedd9989" name="Default" comment="Little changes 2">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/R34_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/48.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/49.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/51.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/52.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/53.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/54.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/56.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/57.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/58.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/59.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/60.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/61.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/62.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/63.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/64.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/65.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/67.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/68.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/70.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/71.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.hack/IMOQ/9.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/R34/com/coloredpanda/Main.class" afterPath="$PROJECT_DIR$/out/production/R34/com/coloredpanda/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/R34.iml" afterPath="$PROJECT_DIR$/R34.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/coloredpanda/Main.java" afterPath="$PROJECT_DIR$/src/com/coloredpanda/Main.java" />
     </list>
     <ignored path="R34.iws" />
@@ -39,11 +112,9 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/coloredpanda/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="307" column="35" selection-start-line="307" selection-start-column="35" selection-end-line="307" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,6 +140,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/coloredpanda/Main.java" />
+        <option value="$PROJECT_DIR$/module_r34.xml" />
       </list>
     </option>
   </component>
@@ -88,7 +160,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1612" />
+    <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -98,7 +170,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -126,10 +198,6 @@
               <option name="myItemId" value="R34" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -154,14 +222,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coloredpanda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Main.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -170,13 +230,18 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_92/jre/lib/jsoup-1.9.2.jar!/" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last.edited.regexp" value="" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="r34" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="true" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -194,6 +259,32 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="R34.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/R34_jar/R34.jar" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.coloredpanda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.coloredpanda.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="R34" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -636,12 +727,16 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JAR Application.R34.jar" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JAR Application.R34.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -685,15 +780,23 @@
       <workItem from="1464158713774" duration="18587000" />
       <workItem from="1464178691195" duration="956000" />
       <workItem from="1464337499827" duration="396000" />
-      <workItem from="1464338519513" duration="755000" />
+      <workItem from="1464338519513" duration="4665000" />
     </task>
+    <task id="LOCAL-00001" summary="Little changes">
+      <created>1464339300618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1464339300618</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112410000" />
+    <option name="totallyTimeSpent" value="116320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -701,27 +804,54 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27860028" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27860028" sideWeight="0.4974293" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25578406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42126516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42126516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27994618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42126516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27860028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25642672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -736,7 +866,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Little changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Little changes" />
+    <MESSAGE value="Little changes 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little changes 2" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -795,13 +926,35 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/lib/jsoup-1.9.1.jar!/org/jsoup/nodes/Element.class" />
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/r34.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/r34.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1997">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_r34.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/coloredpanda/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="307" column="35" selection-start-line="307" selection-start-column="35" selection-end-line="307" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -811,10 +964,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>R34:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -870,6 +1025,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>jsoup-1.9.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

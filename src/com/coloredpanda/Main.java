@@ -95,7 +95,6 @@ class Main {
     }
 }
 
-
 class secondClass extends Thread {
 
     private int counterTags = 0;
