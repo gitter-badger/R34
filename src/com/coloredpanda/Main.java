@@ -234,7 +234,7 @@ class fourClass extends Thread {
                     e.printStackTrace();
                 }
             }
-
+            String size = null;
             String gif = "gif";
             String png = "png";
             String jpg = "jpg";
@@ -253,44 +253,50 @@ class fourClass extends Thread {
                     newIndex++;
                     index++;
                 }
-                String size = String.valueOf(urlsImgArray.size());
-                for (int i2 = 0, imgName = 1; i2 < index; i2++, imgName++) {
-                    String gifName = imgName + "." + gif;
-                    String pngName = imgName + "." + png;
-                    String jpgName = imgName + "." + jpg;
-                    URL url = null;
-                    try {
-                        url = new URL(urlsImgArray.get(i2));
-                    } catch (MalformedURLException e) {
-                        e.printStackTrace();
-                    }
-                    Image img = Toolkit.getDefaultToolkit().createImage(url);
-                    PixelGrabber pg = new PixelGrabber(img, 0, 0, -1, -1, true);
-                    try {
-                        pg.grabPixels();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    int width = pg.getWidth(), height = pg.getHeight();
-                    DataBuffer buffer = new DataBufferInt((int[]) pg.getPixels(), pg.getWidth() * pg.getHeight());
-                    WritableRaster raster = Raster.createPackedRaster(buffer, width, height, width, RGB_MASKS, null);
-                    BufferedImage imgBuf = new BufferedImage(RGB_OPAQUE, raster, false, null);
-                    assert url != null;
-                    if (Objects.equals(url.toString().substring(url.toString().length() - 4), "." + gif)) {
-                        String pathGif = dir + "/" + path + "/" + gifName;
-                        ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-                        FileOutputStream fos = new FileOutputStream(pathGif);
-                        fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-                    }
-                    if (Objects.equals(url.toString().substring(url.toString().length() - 4), "." + png))
-                        ImageIO.write(imgBuf, png, new File(lastPath, pngName));
-
-                    if (Objects.equals(url.toString().substring(url.toString().length() - 4), "." + jpg))
-                        ImageIO.write(imgBuf, jpg, new File(lastPath, jpgName));
-
-                    textArea.append("Download image: " + imgName + "/" + size + "\n");
-                }
+                size = String.valueOf(urlsImgArray.size());
             }
+
+            for (int i = 0, imgName = 1; i < index; i++, imgName++) {
+                String gifName = imgName + "." + gif;
+                String pngName = imgName + "." + png;
+                String jpgName = imgName + "." + jpg;
+                URL url = null;
+                try {
+                    url = new URL(urlsImgArray.get(i));
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                }
+                Image img = Toolkit.getDefaultToolkit().createImage(url);
+                PixelGrabber pg = new PixelGrabber(img, 0, 0, -1, -1, true);
+                try {
+                    pg.grabPixels();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                int width = pg.getWidth(), height = pg.getHeight();
+                DataBuffer buffer = new DataBufferInt((int[]) pg.getPixels(), pg.getWidth() * pg.getHeight());
+                WritableRaster raster;
+                try {
+                    raster = Raster.createPackedRaster(buffer, width, height, width, RGB_MASKS, null);
+                } catch (IllegalArgumentException e) {
+                    raster = Raster.createPackedRaster(buffer, 1, 1, 1, RGB_MASKS, null);
+                }
+                BufferedImage imgBuf = new BufferedImage(RGB_OPAQUE, raster, false, null);
+                assert url != null;
+                if (Objects.equals(url.toString().substring(url.toString().length() - 4), "." + gif)) {
+                    String pathGif = dir + "/" + path + "/" + gifName;
+                    ReadableByteChannel rbc = Channels.newChannel(url.openStream());
+                    FileOutputStream fos = new FileOutputStream(pathGif);
+                    fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+                }
+                if (Objects.equals(url.toString().substring(url.toString().length() - 4), "." + png))
+                    ImageIO.write(imgBuf, png, new File(lastPath, pngName));
+
+                if (Objects.equals(url.toString().substring(url.toString().length() - 4), "." + jpg))
+                    ImageIO.write(imgBuf, jpg, new File(lastPath, jpgName));
+                textArea.append("Download image: " + imgName + "/" + size + "\n");
+            }
+
         } catch (IOException e) {
             e.printStackTrace();
         }
