@@ -273,11 +273,10 @@ class fourClass extends Thread {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                int width = pg.getWidth(), height = pg.getHeight();
                 DataBuffer buffer = new DataBufferInt((int[]) pg.getPixels(), pg.getWidth() * pg.getHeight());
                 WritableRaster raster;
                 try {
-                    raster = Raster.createPackedRaster(buffer, width, height, width, RGB_MASKS, null);
+                    raster = Raster.createPackedRaster(buffer, pg.getWidth(), pg.getHeight(), pg.getWidth(), RGB_MASKS, null);
                 } catch (IllegalArgumentException e) {
                     raster = Raster.createPackedRaster(buffer, 1, 1, 1, RGB_MASKS, null);
                 }
