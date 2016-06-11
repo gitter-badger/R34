@@ -2,21 +2,16 @@ package com.coloredpanda;
         import java.awt.*;
         import java.awt.event.ActionEvent;
         import java.awt.event.ActionListener;
-        import java.io.*;
-        import java.nio.file.Path;
         import java.util.ArrayList;
         import javax.swing.*;
 class Main {
     private static JFrame frameTags = new JFrame("Popular tags");
+    private static JFrame frameDownload = new JFrame("Downloading");
     private static JPanel panel = new JPanel();
     private static JProgressBar progressBar = new JProgressBar();
     private static ArrayList<JRadioButton> checkList = new ArrayList<>();
     private static ArrayList<String> tagURLs = new ArrayList<>();
     private static ButtonGroup group = new ButtonGroup();
-    private static String mainUrl;
-    private static String dirNameString;
-    static File dir;
-    private static Path path;
 
     private static void createGUI() {
         frameTags.setSize(300, 500);
@@ -52,11 +47,10 @@ class Main {
 
     private static void addButton() throws InterruptedException {
         JButton nextButton = new JButton("Download");
-        nextButton.setHorizontalAlignment(SwingConstants.CENTER);
         checkList.get(0).setSelected(true);
         nextButton.setMaximumSize(new Dimension(277, 50));
         panel.add(nextButton);
-        firstClass buttonThread = new firstClass (frameTags, group, dirNameString, path);
+        firstClass buttonThread = new firstClass (frameTags, group, panel, frameDownload);
         nextButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 Thread queryThread = new Thread() {
@@ -67,7 +61,6 @@ class Main {
                 queryThread.start();
             }
         });
-
     }
 
     public static void main(String[] args) throws Exception {

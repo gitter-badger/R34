@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 class firstClass extends Thread {
-    private static JFrame frameDownload = new JFrame("Downloading");
+    private static JFrame frameDownload;
     private static int index = 0;
     private static int counterPage = 0;
     private static int counterGreatPage = 0;
@@ -34,18 +34,16 @@ class firstClass extends Thread {
     private static ButtonGroup group;
     private static String dirNameString;
     private static String lastPath;
-    private static Path path;
     private static JFrame frameTags;
     private static String workingDir = System.getProperty("user.dir");
     private static File dir = new File(workingDir);
     private static final int[] RGB_MASKS = {0xFF0000, 0xFF00, 0xFF};
     private static final ColorModel RGB_OPAQUE = new DirectColorModel(32, RGB_MASKS[0], RGB_MASKS[1], RGB_MASKS[2]);
 
-    firstClass (JFrame jFrameTags, ButtonGroup groupB, String dirName, Path p) {
-        dirNameString = dirName;
-        path = p;
+    firstClass(JFrame jFrameTags, ButtonGroup groupB, JPanel jPanel, JFrame jFrame) {
         frameTags = jFrameTags;
         group = groupB;
+        frameDownload = jFrame;
     }
 
     static void runThread() {
@@ -55,9 +53,10 @@ class firstClass extends Thread {
         textArea.setEditable(false);
         textArea.setLineWrap(true);
         textArea.setWrapStyleWord(true);
-        textArea.setMargin(new Insets(10, 10, 10, 10));
+        textArea.setMargin(new Insets(5, 5, 5, 5));
         JScrollPane areaScrollPane = new JScrollPane(textArea);
         areaScrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        areaScrollPane.getVerticalScrollBar().setUnitIncrement(30);
         frameDownload.add(areaScrollPane);
         frameDownload.setLocation(frameTags.getLocationOnScreen());
         frameTags.setVisible(false);
@@ -87,6 +86,7 @@ class firstClass extends Thread {
                 dirNameElement = dirNameElements.get(index);
                 dirNameString = dirNameElement.text();
             }
+            Path path;
             try {
                 path = Paths.get(dirNameString);
             } catch (InvalidPathException e) {
@@ -109,7 +109,6 @@ class firstClass extends Thread {
             String twoBackSlashes = "\\";
             lastPath = dir + twoBackSlashes + path;
 
-
             for (int i = 0; i < counterGreatPage; i++) {
                 int newIndex = 0;
                 String mUrl = urlsPageArray.get(i);
@@ -123,7 +122,7 @@ class firstClass extends Thread {
                 }
                 size = String.valueOf(urlsImgArray.size());
             }
-            download:
+
             for (int i = 0, imgName = 1; i < index; i++, imgName++) {
                 String gifName = imgName + "." + gif;
                 String pngName = imgName + "." + png;
@@ -147,7 +146,7 @@ class firstClass extends Thread {
                     raster = Raster.createPackedRaster(buffer, pg.getWidth(), pg.getHeight(), pg.getWidth(), RGB_MASKS, null);
                 } catch (IllegalArgumentException e) {
                     i++;
-                    continue download;
+                    continue;
                 }
                 BufferedImage imgBuf = new BufferedImage(RGB_OPAQUE, raster, false, null);
                 assert url != null;
@@ -156,32 +155,46 @@ class firstClass extends Thread {
                     ReadableByteChannel rbc = Channels.newChannel(url.openStream());
                     FileOutputStream fos = new FileOutputStream(pathGif);
                     fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+                    textArea.append("Download image: " + imgName + "/" + size + "\n");
                 }
-                if (Objects.equals(url.toString().substring(url.toString().length() - 4), "." + png))
+                if (Objects.equals(url.toString().substring(url.toString().length() - 4), "." + png)) {
                     ImageIO.write(imgBuf, png, new File(lastPath, pngName));
-
-                if (Objects.equals(url.toString().substring(url.toString().length() - 4), "." + jpg))
+                    textArea.append("Download image: " + imgName + "/" + size + "\n");
+                }
+                if (Objects.equals(url.toString().substring(url.toString().length() - 4), "." + jpg)) {
                     ImageIO.write(imgBuf, jpg, new File(lastPath, jpgName));
-                textArea.append("Download image: " + imgName + "/" + size + "\n");
+                    textArea.append("Download image: " + imgName + "/" + size + "\n");
+                }
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         }
-        JOptionPane.showMessageDialog(null, "Download finished!");
-        try {
-            Desktop.getDesktop().open(new File(lastPath));
-        } catch (IOException e) {
-            e.printStackTrace();
+        int reply = JOptionPane.showConfirmDialog(null, "Open the folder with downloaded images?", "Answer the question", JOptionPane.YES_NO_OPTION);
+        if (reply == JOptionPane.YES_OPTION) {
+            try {
+                Desktop.getDesktop().open(new File(lastPath));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
-        System.exit(0);
+        frameDownload.setVisible(false);
+        frameTags.setVisible(true);
+        index = 0;
+        counterPage = 0;
+        counterGreatPage = 0;
+        dirNameString = "";
+        lastPath = "";
+        textArea.setText("");
+        frameDownload.remove(areaScrollPane);
+        urlsImgArray.clear();
+        urlsPageArray.clear();
     }
 
     public void updateGUI() {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                textArea.repaint();
-                textArea.revalidate();
+               textArea.repaint();
+               textArea.revalidate();
             }
         });
     }
